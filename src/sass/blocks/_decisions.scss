@@ -1,0 +1,68 @@
+.decisions {
+    min-height: 890px;
+    padding-top: 90px;
+    background: url('../img/decisions/bg.png') center (center / cover) no-repeat;
+
+    &__title {
+        color: $white-colour;
+        margin-bottom: 30px;
+    }
+    &__menu {
+        width: 840px;
+        height: 64px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid #ececec;
+        border-radius: 10px;
+        font-size: 13px;
+        line-height: 37px;
+        color: $white-colour;
+        &-items {
+        border-right: 1px solid $white-colour;
+        padding-right: 25px;
+            &:hover {
+                color: #00c2f0;
+                font-weight: bold;
+            }
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+
+    }
+
+    &__wreapper {
+        position: relative;
+        display: block;
+        padding-top: 40px;
+        margin: 0 auto;
+        width: 947px;
+        .prev, .next {
+            position:absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+            border: none;
+            background-color: transparent;
+            img {
+                width: 18px;
+                height: 58px;
+            }
+        }
+        .next {
+            right: -66px;
+            left: auto;
+        }
+        .tns-item {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+
+}

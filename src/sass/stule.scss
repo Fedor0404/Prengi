@@ -1,0 +1,33 @@
+@import 'lips/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import 'lips/animate';
+@import "base/variables";
+@import 'base/mixin';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/title';
+@import 'blocks/flags';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/without';
+@import 'blocks/arrows';
+@import 'blocks/with';
+@import 'blocks/decisions';
+@import 'blocks/advantages';
+@import 'blocks/options';
+@import 'blocks/start';
+@import 'blocks/footer';
+
+

@@ -1,0 +1,35 @@
+.flags {
+    padding: 20px 0;
+    &__wreapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 50px;
+
+        // justify-content: space-around;
+        // column-gap: 35px;
+    }
+    &__items {
+        display: flex;
+        grid-template-columns: 31px auto;
+        column-gap: 13px;
+    }
+    &__name{
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+    &__address {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    img {
+        max-width: 28px;
+        max-height: 21px;
+    }
+    a {
+        text-decoration: none;
+        color: $black-colour;
+    }
+
+
+}

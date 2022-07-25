@@ -1,0 +1,19 @@
+.start {
+    padding-top: 90px;
+    min-height: 690px;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        padding-top: 80px;
+    }
+    &__wreapper {
+        padding-top: 35px;
+    }
+    &__btn {
+        display: block;
+        width: 241px;
+        margin: 0 auto;
+    }
+}

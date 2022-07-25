@@ -1,0 +1,62 @@
+.arrows {
+    position: relative;
+    padding-top: 10px;
+    position: relative;
+    min-height: 118px;
+    // &__wreapper {
+    //     margin: 0 auto;
+    // }
+    &__left {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-113px)
+    }
+    &__right {
+        position: absolute;
+        left: 50%;
+    }
+    &__left1 {
+        position: absolute;
+        // left: 50%;
+        top: 51px;
+
+        width: 130px;
+        height: 1px;
+        background-color: $black-colour;
+        margin-top: 10px;
+        transform: rotate(30deg);
+    }
+    &__left2 {
+        position: absolute;
+        // left: 50%;
+        top: 61px;
+
+        width: 130px;
+        height: 1px;
+        background-color: $black-colour;
+        margin-top: 10px;
+        transform: rotate(30deg);
+    }
+    &__right1 {
+        position: absolute;
+        top: 51px;
+        // left: 50%;
+        width: 130px;
+        height: 1px;
+        background-color: $black-colour;
+        margin-top: 10px;
+        transform: rotate(-30deg);
+    
+    }
+    &__right2 {
+        position: absolute;
+        top: 61px;
+        // left: 50%;
+        width: 130px;
+        height: 1px;
+        background-color: $black-colour;
+        margin-top: 10px;
+        transform: rotate(-30deg);
+    }
+
+}

@@ -1,0 +1,33 @@
+.advantages {
+    padding-top: 90px;
+    &__grid {
+        padding-top: 50px;
+        display: grid;
+        grid-template: repeat(3, 355px) / repeat(2, 570px);
+        grid-auto-rows: 355px;                
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        position: absolute;
+        z-index: -1;
+    }
+    &__blockBg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 156px;
+        width: 570px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    &__text {
+        color: $white-colour;
+        font-size: 23px;
+        line-height: 26px;
+        text-align: center;
+    }
+    
+}

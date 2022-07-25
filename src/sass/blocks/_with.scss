@@ -1,0 +1,38 @@
+.with {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    &__text {
+        font-size: 48px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__items {
+        position: relative;
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows: 255px;
+        justify-content: space-between;
+       
+    }
+    &__item {
+        position: relative;
+        display: block;
+        border: 2px solid #ececec;
+        text-align: center;
+        overflow: hidden;
+ 
+    }
+    &__question {
+        position: absolute;
+        top: 163px;
+        right: -43px;
+    }
+    &__descr {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: bold;
+    }
+
+}

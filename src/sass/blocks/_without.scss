@@ -1,0 +1,31 @@
+.without {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    &__items {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows: 255px;
+        justify-content: space-between;
+       
+    }
+    &__item {
+        position: relative;
+        display: block;
+        border: 2px solid #ececec;
+        text-align: center;
+        overflow: hidden;
+ 
+    }
+    &__question {
+        position: absolute;
+        top: 163px;
+        right: -43px;
+    }
+    &__descr {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: lighter;
+    }
+
+}
